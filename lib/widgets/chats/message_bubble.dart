@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
 class MessageBubble extends StatelessWidget {
-  MessageBubble(this.message);
+  MessageBubble(
+      this.message,
+      this.isMe,
+      );
   final String message;
+  final bool isMe;
 
   @override
   Widget build(BuildContext context) {
