@@ -1,6 +1,6 @@
 # chit_chat
 
-A new Flutter project.
+ A Flutter project application that make use of the Firebase.
 
 ## Getting Started
 
